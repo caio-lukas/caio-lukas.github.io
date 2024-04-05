@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(240,240,240);
+}
+
+header, footer {
+    background-color: rgb(255,255,255);
+    padding: 3%;
+    display: flex;
+}
+
+main {
+    background-color: rgb(227, 240, 243);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 10%;
+    padding-left: 70%;
+}
+
+.item-menu {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.secao-principal {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-secao-principal {
+    text-align: center;
+}
+
+img {
+    padding-left: 2%;
+    size: auto;
+}
